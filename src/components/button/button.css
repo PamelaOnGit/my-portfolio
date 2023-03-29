@@ -1,0 +1,35 @@
+
+
+.button { 
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  background-color: #060038; 
+  border: 1px solid white;
+  color: white;
+  border-radius: 0.3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-size: 16px; 
+  padding: 12px 24px; 
+  margin-right: 50px; 
+  margin-top: 30px; 
+}
+
+.button:hover {
+
+  color: #060038; 
+  border: 1px solid white;
+  background-color: white;
+
+
+}
+/* .button--small { 
+  font-size: 12px; 
+  padding: 10px 16px; 
+}
+
+.button--large { 
+  font-size: 16px; 
+  padding: 12px 24px; 
+} */

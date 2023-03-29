@@ -1,0 +1,22 @@
+.title-text { 
+  font-family: 'Space Mono', monospace;
+  font-size: 2rem; 
+  color: white; 
+  background-color: #060038; 
+  font-weight: 200;
+  margin-left: -2px; 
+}
+
+.no-blink { 
+  display: none; 
+}
+
+.blink { 
+  animation: blinker 1s step-start infinite; 
+}
+
+@keyframes blinker { 
+  50% { 
+    opacity: 0; 
+  }
+}
